@@ -200,47 +200,189 @@ footer{
 /* --------------------------------------------
 responsive area
 --------------------------------------------- */
+/* -----------------------------------------------
+------------------------------------------
+------------------------------------ */
 /* mobile device */
-@media only screen and (max-width:688px) {
-.influencer{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
-.header-title{
-    justify-content: center;
-}
-.article{
-    width: 100%;
-}
-.thumbnail img{
-    width: 50%;
-}
-.main-image img{
-    /* width: 50%; */
-    top: 890px;
-    right: 200px;
-    width: 320px;
-    height: 240px;
-}
+/* ------------------------------------------------
+----------------------------------------------
+------------------------------------------ */
 
+@media only screen and (max-width:688px){
+    main{
+        width: 100%;
+    }
+    .preebook{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .header-title{
+        text-align: center;
+    }
+    .article{
+        width: 100%;
+    }
+    .influencer{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+         justify-content: center;
+    }
+
+    .photos img{
+        width: 50%;
+        height: 50%;
+    }
+    .main-image img{
+        width: 120px;
+        height: 250px;
+        top: 100px;
+        left: 75%;
+        
+        position: relative;
+    }
+    .collection{
+        height: 800px;
+    }
+    .collections{
+        width: 40%;
+        
+    }
+  
+    .collection img{
+        height: 70%;
+        width: 100%;
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        grid-row-gap: 80px;
+    }
+    
+    .optional-area{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .optional-area img{
+        width: 90%;
+
+    }
+    .see-more{
+        width: 20px;
+        height: 50px;
+        margin-right: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+}
+/* ------------------------------------------------------
+----------------------------------------------------- */
+/* -------------------------------------------------
+tablet device
+------------------------------------------------- */
+/* ------------------------------------------------------
+-------------------------------------------------------- */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+.header-title{
+    text-align: center;
+}
 .preebook{
-    width: 100%;
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
 }
-.collection{
-    width: 100%;
+.photos img{
+    width: 90%;
 }
-.collection img{
-    width: 70%;
-}
-.collections{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+.main-image{
+    width: 50%;
+    position: absolute;
+    top: 490px;
+    left: 180px;
 }
 
+.article-title{
+    text-align: center;
+}
+.influencer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+} 
+.collection img{
+    width: 230px;
+}
+.collection{
+    width: 50%;
+    margin-left: 22%;
+}
+
+
+.collections{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-column-gap: 0;
+    grid-row-gap: 60px;
+
+}
+.see-more{
+    margin-right: 100%;
+}
+
+.optional-area{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.offer-details{
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    width: 100%;
+}
+
+/* ----------------------------------------------------ENDS----------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
@@ -255,4 +397,4 @@ responsive area
 
 
     
-}
+
